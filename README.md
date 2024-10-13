@@ -1,3 +1,5 @@
+Documentation of use cases
+
 **Events module**
 
   **1. List of all events**
@@ -34,4 +36,26 @@
       g. Office
       h. Address
     3. The empty fields must not be shown in the details view to reduce the space.
+
+  **Department module**
+
+   **2. Department information**
+    
+    Role: Every authenticated user
+    
+    Business logic
+    1. The user must be able to open and see the detailed information of any department.
+    2. The following information can be seen regarding the department:
+      a. Name
+      b. Description
+      c. Parent department/group - if this department is a sub-department.
+      d. List of Key contacts - employees of the company.
+         • The user must be able to go to the employee details view by clicking on it.
+      e. Contact email
+      f. Contact details
+      g. Office
+      h. Additional documents
+      i. Links specific for this department
+      j. Key dates - like meeting schedule, milestones, etc.
+    3. The user must see only those fields that are not empty, to reduce the space.
     
